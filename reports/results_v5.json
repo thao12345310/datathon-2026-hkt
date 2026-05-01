@@ -1,0 +1,18 @@
+{
+  "version": "v5",
+  "mae_revenue": 358959.1992833934,
+  "mae_cogs": 324274.74936766684,
+  "cogs_ratio": 0.8503335614908907,
+  "revenue_mean": 3272277.886885011,
+  "cogs_mean": 2768670.343257535,
+  "n_models": 9,
+  "improvements": [
+    "recent-year sample weighting (decay=0.85)",
+    "log1p target transform",
+    "multi-seed ensemble (3x3=9 models)",
+    "COGS/Revenue ratio blending",
+    "adaptive drift correction (alpha=0.20)",
+    "interaction features",
+    "EWM features"
+  ]
+}
